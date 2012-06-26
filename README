@@ -1,0 +1,10 @@
+Incomplete C++ port of campskeleton (written in Java). Currently working for
+a simple straight skeleton, weighted (not capped or offset).
+
+Campskeleton available here:
+    http://code.google.com/p/campskeleton/
+
+Original author twak, his information about the skeleton:
+    http://twak.blogspot.co.nz/2009/10/skeleton-index-page.html
+
+-Tom Cornall, June 2012
