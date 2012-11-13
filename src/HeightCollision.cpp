@@ -235,8 +235,8 @@ void HeightCollision::processHoriz(Skeleton *skel)
             tuple<Corner *, Corner *> *pair = pairIt.next();
             Corner *s = pair->get<0>();
             Corner *e = pair->get<1>();
-            if (s->nextL == e->prevL)
-                throw runtime_error("error! s->nextL == e->prevL");
+            if (s->nextL != e->prevL)
+                throw runtime_error("error! s->nextL != e->prevL");
 
             /* if this is he edge that spreads out all others */
             if (winners.contains(s->nextL))
